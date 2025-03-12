@@ -10,7 +10,7 @@ on:
 
 jobs:
   security-scan:
-    runs-on: ubuntu-latest
+    runs-on: busybox-latest
     
     steps:
       - name: Checkout repository
